@@ -1,0 +1,23 @@
+@import "tailwindcss";
+.heading{
+    font-family: 'Major Mono Display';
+    transition: 0.5s;
+    transform: translateY(1rem);
+    will-change: transform auto;
+    &:hover{
+        font-weight: 900;
+        /* transform: translateY(2rem); */
+        padding: 2rem 0;
+        letter-spacing: 1rem;
+    }
+}
+.npmrun{
+    transition: 0.2s;
+    font-family: Consolas, 'Courier New', monospace;
+    &:hover{
+        transform: translate(-50%, -5px);
+        box-shadow: 0px 10px 30px -10px rgba(255,255,255,1);
+        -webkit-box-shadow: 0px 10px 30px -10px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 10px 30px -10px rgba(255,255,255,1);
+    }
+}
