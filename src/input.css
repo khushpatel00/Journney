@@ -1,4 +1,7 @@
 @import "tailwindcss";
+*{
+    scroll-behavior: smooth;
+}
 .heading{
     font-family: 'Major Mono Display';
     transition: 0.5s;
@@ -29,4 +32,9 @@
 }
 .poppins{
     font-family: poppins    ;
+}
+.display-none{
+    @media (width <= 920px) {
+        display: none !important;
+    }
 }
