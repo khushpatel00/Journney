@@ -34,7 +34,44 @@
     font-family: poppins    ;
 }
 .display-none{
-    @media (width <= 920px) {
+    @media (width <= 1120px) {
         display: none !important;
     }
+}
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.arrowImg{
+    animation: float infinite 4.5s;
+}
+.blur {
+      view-timeline-name: --fade-blur;
+      view-timeline-axis: block;
+      animation-name: fadeBlurIn;
+      animation-fill-mode: both;
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
+      animation-timeline: --fade-blur;
+      animation-range: entry 50% cover 30%;
+}
+
+@keyframes fadeBlurIn {
+from {
+    opacity: 0;
+    filter: blur(12px);
+    transform: translateY(40px);
+}
+to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
 }
