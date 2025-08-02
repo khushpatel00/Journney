@@ -64,14 +64,25 @@
 }
 
 @keyframes fadeBlurIn {
-from {
-    opacity: 0;
-    filter: blur(12px);
-    transform: translateY(40px);
+    from {
+        opacity: 0;
+        filter: blur(12px);
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
 }
-to {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateY(0);
+.pinnedScroll{
+    min-height: 100vh !important;
 }
+h1#pinnedScrollContent{
+    font-size: 35vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+body{
+    overflow-x: hidden;
 }
