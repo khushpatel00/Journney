@@ -16,6 +16,6 @@ A Motioned Blogs, For making youths take interest in BLogs, in a New way, With f
 
 
 ## Collaboration
-If you're interested in making this Kind of Projects, Contact me via social media ([Instagram](https://www.linkedin.com/khushpatel00)), or ([Whatsapp](https://www.wa.me/919316270122))
+If you're interested in making this Kind of Projects, Contact me via social media ([Instagram](https://www.instagram.com/khush_x64.exe)), or ([Whatsapp](https://wa.me/919316270122))
 <br />You can connect me over Github, or linkedin Anytime
 
